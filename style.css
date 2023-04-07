@@ -87,7 +87,7 @@ body {
 
 @keyframes move {
   from {
-    right: 800px;
+    right: 300px;
   }
   to {
     right: -4800px;
