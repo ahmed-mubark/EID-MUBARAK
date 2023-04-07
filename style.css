@@ -41,7 +41,7 @@ body {
   font-size: 100px;
   position: relative;
   display: inline-block;
-  animation: move 30s infinite linear;
+  animation: move 20s infinite linear;
   color: #EBB55F;
 }
 
@@ -81,15 +81,15 @@ body {
   font-size: 52px;
   position: relative;
   display: inline-block;
-  animation: move 30s infinite linear;
+  animation: move 10s infinite linear;
   color: #949494;
 }
 
 @keyframes move {
   from {
-    right: 300px;
+    right: 3000px;
   }
   to {
-    right: -4800px;
+    right: -1000px;
   }
 }
