@@ -3,8 +3,12 @@
   padding: 0;
 }
 
+
+
 body {
-  background: #C2BEB2;
+  background:url(https://i.pinimg.com/originals/46/c0/41/46c0411f3d7784c87da2b85a21a9c8e5.jpg);
+  background-size: cover;
+
 }
 
 .center {
@@ -18,6 +22,7 @@ body {
 
 .table {
   bottom: 200px;
+  left: 300px;
   width: 790px;
   height: 150px;
   background-color: #d4e5ff;
@@ -37,11 +42,11 @@ body {
   box-shadow: inset 0px 5px 10px 2px rgba(0, 0, 0, 0.3);
 }
 .table .monitor-wrapper .monitor p {
-  font-family: "VT323", monospace;
-  font-size: 100px;
+  font-family: "VT323", Arial;
+  font-size: 90px;
   position: relative;
   display: inline-block;
-  animation: move 20s infinite linear;
+  animation: move 12s infinite linear;
   color: #EBB55F;
 }
 
@@ -58,6 +63,7 @@ body {
 
 .table1 {
   bottom: -160px;
+  left: 300px;
   width: 790px;
   height: 75px;
   background-color: #d4e5ff;
@@ -78,16 +84,15 @@ body {
 }
 .table1 .monitor1-wrapper1 .monitor1 p1 {
   font-family: "VT323", monospace;
-  font-size: 52px;
+  font-size: 42px;
   position: relative;
   display: inline-block;
-  animation: move 10s infinite linear;
   color: #949494;
 }
 
 @keyframes move {
   from {
-    right: 3000px;
+    right: 2000px;
   }
   to {
     right: -1000px;
